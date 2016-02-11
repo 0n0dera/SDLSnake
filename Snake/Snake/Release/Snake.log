@@ -1,0 +1,93 @@
+﻿  Main.cpp
+c:\users\ashang\desktop\vs2015\projects\snake\snake\SDL_Controller.h(22): error C2079: 'SDL_Controller::snake' uses undefined class 'Snake'
+  MenuState.cpp
+c:\users\ashang\desktop\vs2015\projects\snake\snake\MenuState.h(8): error C3646: 'mStart': unknown override specifier
+c:\users\ashang\desktop\vs2015\projects\snake\snake\MenuState.h(8): error C2059: syntax error: '='
+c:\users\ashang\desktop\vs2015\projects\snake\snake\MenuState.h(8): error C2238: unexpected token(s) preceding ';'
+c:\users\ashang\desktop\vs2015\projects\snake\snake\MenuState.h(9): error C3646: 'mInstructions': unknown override specifier
+c:\users\ashang\desktop\vs2015\projects\snake\snake\MenuState.h(9): error C2059: syntax error: '='
+c:\users\ashang\desktop\vs2015\projects\snake\snake\MenuState.h(9): error C2238: unexpected token(s) preceding ';'
+c:\users\ashang\desktop\vs2015\projects\snake\snake\MenuState.h(10): error C3646: 'mHighscores': unknown override specifier
+c:\users\ashang\desktop\vs2015\projects\snake\snake\MenuState.h(10): error C2059: syntax error: '='
+c:\users\ashang\desktop\vs2015\projects\snake\snake\MenuState.h(10): error C2238: unexpected token(s) preceding ';'
+c:\users\ashang\desktop\vs2015\projects\snake\snake\MenuState.h(11): error C3646: 'mQuit': unknown override specifier
+c:\users\ashang\desktop\vs2015\projects\snake\snake\MenuState.h(11): error C2059: syntax error: '='
+c:\users\ashang\desktop\vs2015\projects\snake\snake\MenuState.h(11): error C2238: unexpected token(s) preceding ';'
+MenuState.cpp(13): error C2065: 'mStart': undeclared identifier
+MenuState.cpp(13): error C2228: left of '.loadFromRenderedText' must have class/struct/union
+  MenuState.cpp(13): note: type is 'unknown-type'
+MenuState.cpp(14): error C2065: 'mInstructions': undeclared identifier
+MenuState.cpp(14): error C2228: left of '.loadFromRenderedText' must have class/struct/union
+  MenuState.cpp(14): note: type is 'unknown-type'
+MenuState.cpp(15): error C2065: 'mHighscores': undeclared identifier
+MenuState.cpp(15): error C2228: left of '.loadFromRenderedText' must have class/struct/union
+  MenuState.cpp(15): note: type is 'unknown-type'
+MenuState.cpp(16): error C2065: 'mQuit': undeclared identifier
+MenuState.cpp(16): error C2228: left of '.loadFromRenderedText' must have class/struct/union
+  MenuState.cpp(16): note: type is 'unknown-type'
+MenuState.cpp(21): error C2065: 'mStart': undeclared identifier
+MenuState.cpp(21): error C2228: left of '.render' must have class/struct/union
+  MenuState.cpp(21): note: type is 'unknown-type'
+MenuState.cpp(22): error C2065: 'mInstructions': undeclared identifier
+MenuState.cpp(22): error C2228: left of '.render' must have class/struct/union
+  MenuState.cpp(22): note: type is 'unknown-type'
+MenuState.cpp(23): error C2065: 'mHighscores': undeclared identifier
+MenuState.cpp(23): error C2228: left of '.render' must have class/struct/union
+  MenuState.cpp(23): note: type is 'unknown-type'
+MenuState.cpp(24): error C2065: 'mInstructions': undeclared identifier
+MenuState.cpp(24): error C2228: left of '.render' must have class/struct/union
+  MenuState.cpp(24): note: type is 'unknown-type'
+  SDL_Controller.cpp
+c:\users\ashang\desktop\vs2015\projects\snake\snake\MenuState.h(8): error C3646: 'mStart': unknown override specifier
+c:\users\ashang\desktop\vs2015\projects\snake\snake\MenuState.h(8): error C2059: syntax error: '='
+c:\users\ashang\desktop\vs2015\projects\snake\snake\MenuState.h(8): error C2238: unexpected token(s) preceding ';'
+c:\users\ashang\desktop\vs2015\projects\snake\snake\MenuState.h(9): error C3646: 'mInstructions': unknown override specifier
+c:\users\ashang\desktop\vs2015\projects\snake\snake\MenuState.h(9): error C2059: syntax error: '='
+c:\users\ashang\desktop\vs2015\projects\snake\snake\MenuState.h(9): error C2238: unexpected token(s) preceding ';'
+c:\users\ashang\desktop\vs2015\projects\snake\snake\MenuState.h(10): error C3646: 'mHighscores': unknown override specifier
+c:\users\ashang\desktop\vs2015\projects\snake\snake\MenuState.h(10): error C2059: syntax error: '='
+c:\users\ashang\desktop\vs2015\projects\snake\snake\MenuState.h(10): error C2238: unexpected token(s) preceding ';'
+c:\users\ashang\desktop\vs2015\projects\snake\snake\MenuState.h(11): error C3646: 'mQuit': unknown override specifier
+c:\users\ashang\desktop\vs2015\projects\snake\snake\MenuState.h(11): error C2059: syntax error: '='
+c:\users\ashang\desktop\vs2015\projects\snake\snake\MenuState.h(11): error C2238: unexpected token(s) preceding ';'
+c:\users\ashang\desktop\vs2015\projects\snake\snake\SDL_Controller.h(22): error C2079: 'SDL_Controller::snake' uses undefined class 'Snake'
+SDL_Controller.cpp(17): error C2440: 'initializing': cannot convert from 'Snake' to 'int'
+  SDL_Controller.cpp(17): note: No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+SDL_Controller.cpp(17): error C2439: 'SDL_Controller::snake': member could not be initialized
+  c:\users\ashang\desktop\vs2015\projects\snake\snake\SDL_Controller.h(22): note: see declaration of 'SDL_Controller::snake'
+SDL_Controller.cpp(76): error C2228: left of '.setHeadTexture' must have class/struct/union
+  SDL_Controller.cpp(76): note: type is 'int'
+SDL_Controller.cpp(77): error C2228: left of '.setTailTexture' must have class/struct/union
+  SDL_Controller.cpp(77): note: type is 'int'
+SDL_Controller.cpp(102): error C2228: left of '.getDirection' must have class/struct/union
+  SDL_Controller.cpp(102): note: type is 'int'
+SDL_Controller.cpp(103): error C2228: left of '.changeDirection' must have class/struct/union
+  SDL_Controller.cpp(103): note: type is 'int'
+SDL_Controller.cpp(106): error C2228: left of '.getDirection' must have class/struct/union
+  SDL_Controller.cpp(106): note: type is 'int'
+SDL_Controller.cpp(107): error C2228: left of '.changeDirection' must have class/struct/union
+  SDL_Controller.cpp(107): note: type is 'int'
+SDL_Controller.cpp(110): error C2228: left of '.getDirection' must have class/struct/union
+  SDL_Controller.cpp(110): note: type is 'int'
+SDL_Controller.cpp(111): error C2228: left of '.changeDirection' must have class/struct/union
+  SDL_Controller.cpp(111): note: type is 'int'
+SDL_Controller.cpp(114): error C2228: left of '.getDirection' must have class/struct/union
+  SDL_Controller.cpp(114): note: type is 'int'
+SDL_Controller.cpp(115): error C2228: left of '.changeDirection' must have class/struct/union
+  SDL_Controller.cpp(115): note: type is 'int'
+SDL_Controller.cpp(122): error C2228: left of '.update' must have class/struct/union
+  SDL_Controller.cpp(122): note: type is 'int'
+SDL_Controller.cpp(124): error C2228: left of '.crash' must have class/struct/union
+  SDL_Controller.cpp(124): note: type is 'int'
+SDL_Controller.cpp(129): error C2228: left of '.getHeadX' must have class/struct/union
+  SDL_Controller.cpp(129): note: type is 'int'
+SDL_Controller.cpp(129): error C2228: left of '.getHeadY' must have class/struct/union
+  SDL_Controller.cpp(129): note: type is 'int'
+SDL_Controller.cpp(131): error C2228: left of '.addTail' must have class/struct/union
+  SDL_Controller.cpp(131): note: type is 'int'
+SDL_Controller.cpp(141): error C2228: left of '.draw' must have class/struct/union
+  SDL_Controller.cpp(141): note: type is 'int'
+  Snake.cpp
+c:\users\ashang\desktop\vs2015\projects\snake\snake\SDL_Controller.h(22): error C2079: 'SDL_Controller::snake' uses undefined class 'Snake'
+  LTexture.cpp
+  State.cpp
